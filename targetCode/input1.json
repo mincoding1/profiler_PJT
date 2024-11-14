@@ -1,0 +1,12 @@
+{
+"StringProperty": "StringValue",
+ 	"NumberProperty": 1030,
+ 	"FloatProperty": 2013,
+ 	"BooleanProperty": true,
+	"EmptyProperty": null,
+
+	"NestedObjectProperty": {
+		"Name": "Neste  Object"
+	},
+	"NestedArrayProperty": ["Str \' Do",20,true,false]
+}

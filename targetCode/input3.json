@@ -1,0 +1,120 @@
+{
+  "company": {
+    "name": "Tech Innovations Ltd.",
+    "founded": 1995,
+    "employees": [
+      {
+        "id": 1,
+        "name": "Alice Johnson",
+        "role": "CEO",
+        "department": "Management",
+        "contacts": {
+          "email": "alice@techinnovations.com",
+          "phone": "555-0101"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Bob Smith",
+        "role": "CTO",
+        "department": "Technology",
+        "contacts": {
+          "email": "bob@techinnovations.com",
+          "phone": "555-0102"
+        },
+        "projects": [
+          {
+            "name": "AI Development",
+            "budget": 500000,
+            "duration_months": 12,
+            "status": "Ongoing",
+            "milestones": [
+              {
+                "milestone": "Initial Research",
+                "due_date": "2023-05-15",
+                "completed": true
+              },
+              {
+                "milestone": "Prototype Development",
+                "due_date": "2024-01-30",
+                "completed": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "departments": [
+      {
+        "name": "Research and Development",
+        "head": "Bob Smith",
+        "teams": [
+          {
+            "name": "AI Team",
+            "members": [
+              "Alice Johnson",
+              "David Lee"
+            ],
+            "ongoing_projects": [
+              {
+                "project_name": "AI Development",
+                "stage": "Prototype"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Marketing",
+        "head": "Sarah Connor",
+        "budget": 150000,
+        "campaigns": [
+          {
+            "name": "2024 Product Launch",
+            "budget": 60000,
+            "channels": [ "Social Media", "TV", "Online Ads" ],
+            "launch_date": "2024-09-01",
+            "active": true
+          }
+        ]
+      }
+    ],
+    "financials": {
+      "annual_revenue": 10000000,
+      "quarters": [
+        {
+          "quarter": "Q1",
+          "revenue": 2500000,
+          "expenses": 1200000,
+          "profit": 1300000
+        },
+        {
+          "quarter": "Q2",
+          "revenue": 2600000,
+          "expenses": 1250000,
+          "profit": 1350000
+        }
+      ]
+    },
+    "locations": [
+      {
+        "office": "Headquarters",
+        "address": {
+          "street": "123 Innovation Drive",
+          "city": "Techville",
+          "state": "CA",
+          "zip": "94043"
+        }
+      },
+      {
+        "office": "Research Center",
+        "address": {
+          "street": "456 Discovery Way",
+          "city": "Innovate City",
+          "state": "NY",
+          "zip": "10001"
+        }
+      }
+    ]
+  }
+}
